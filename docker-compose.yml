@@ -7,8 +7,8 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: rootpass   
-      MYSQL_USER: harsh 
-      MYSQL_PASSWORD: tyshnd 
+      MYSQL_USER: rahul
+      MYSQL_PASSWORD: redhat
       MYSQL_DATABASE: mydb
 
 
@@ -23,8 +23,8 @@ services:
 
     environment: 
       WORDPRESS_DB_HOST: dbos 
-      WORDPRESS_DB_USER: harsh 
-      WORDPRESS_DB_PASSWORD: tyshnd 
+      WORDPRESS_DB_USER: rahul
+      WORDPRESS_DB_PASSWORD: redhat 
       WORDPRESS_DB_NAME: mydb
     volumes:
       - wp_storage_new:/var/www/html
